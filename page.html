@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple</title>
+  <style>
+    body{
+      background-color: #1e1e2e;
+    }
+    h1,h2,p{
+      color: #cdd6f4;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      font-family: 'Inter';
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -15px;
+      justify-content: center;
+    }
+
+    .col {
+      flex: 1;
+      padding: 15px;
+    }
+
+    @media (min-width: 768px) {
+      .col {
+        flex: 1 400px;
+      }
+    }
+
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #b4befe;
+      color: #1e1e2e;
+      border: none;
+      border-radius: 12px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      font-family: 'Inter';
+    }
+
+    .btn:hover {
+      background-color: #6c7086;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h1>Welcome to Apple</h1>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h2>iPhone 15</h2>
+        <img src="iphone.jpg" alt="iPhone" class="img-fluid">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor, velit eget faucibus volutpat, lacus
+          nisi venenatis nisl, vel aliquet nunc nisi a nunc.</p>
+        <button class="btn" onClick="window.location.href='https://www.apple.com'">Learn More</button>
+      </div>
+      <div class="col">
+        <h2>iPad</h2>
+        <img src="ipad.jpg" alt="iPad" class="img-fluid">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor, velit eget faucibus volutpat, lacus
+          nisi venenatis nisl, vel aliquet nunc nisi a nunc.</p>
+        <button class="btn" onClick="window.location.href='https://www.apple.com'">Learn More</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h2>MacBook</h2>
+        <img src="mac.jpg" alt="MacBook" class="img-fluid">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor, velit eget faucibus volutpat, lacus
+          nisi venenatis nisl, vel aliquet nunc nisi a nunc.</p>
+        <button class="btn" onClick="window.location.href='https://www.apple.com'">Learn More</button>
+      </div>
+      <div class="col">
+        <h2>Airpods</h2>
+        <img src="airpods.jpg" alt="Airpods" class="img-fluid">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor, velit eget faucibus volutpat, lacus
+          nisi venenatis nisl, vel aliquet nunc nisi a nunc.</p>
+        <button class="btn" onClick="window.location.href='https://www.apple.com'">Learn More</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
