@@ -10,4 +10,3 @@
 - Git
 - HTML
 - CSS
-- 
