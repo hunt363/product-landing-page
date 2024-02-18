@@ -5,6 +5,9 @@
 - Basic Git
 - Basic Markdown
 
-## Tools used
+## Tools/technologies used
 - Visual Studio Code
 - Git
+- HTML
+- CSS
+- 
